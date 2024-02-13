@@ -1,0 +1,134 @@
+.nav__menu {
+  position: fixed;
+  left: -100%;
+  inset-block: 0;
+  background-color: var(--first-color);
+  padding: 60px 30px;
+  width: 100%;
+  transition: all 0.5s cubic-bezier(0.77, 0.2, 0.5, 1);
+  z-index: 1;
+}
+
+.show-menu {
+  left: 0;
+}
+
+.nav__link {
+  display: flex;
+  align-items: center;
+  column-gap: 24px;
+  border-bottom: 1px solid var(--border-color);
+  padding-block: 14px;
+}
+
+.nav__icon,
+.nav__name {
+  color: var(--text-white);
+  font-size: 1.2rem;
+}
+
+.nav__name {
+  font-weight: var(--weight-500);
+}
+
+.active-nav .nav__name,
+.active-nav .nav__icon {
+  color: rgba(214, 214, 214, 0.671);
+}
+
+.nav__toggle {
+  position: fixed;
+  top: 30px;
+  right: 7px;
+  width: 40px;
+  height: 40px;
+  border-radius: 0.3rem;
+  padding: 0.6rem 0.5rem;
+  background-color: var(--container-color);
+  z-index: 10000;
+}
+
+.nav__toggle span {
+  width: 25px;
+  height: 2px;
+  margin-bottom: 5px;
+  border-radius: 0.2rem;
+  display: block;
+  transition: all 0.5s;
+  background-color: var(--title-color);
+}
+
+.animate-toggle span:first-child {
+  transform: rotate(45deg) translate(6px, 4px);
+}
+.animate-toggle span:nth-child(2) {
+  display: none;
+}
+.animate-toggle span:last-child {
+  transform: rotate(-45deg) translate(1px, 1px);
+}
+
+@media screen and (min-width: 1024px) {
+  .nav__menu {
+    all: unset;
+  }
+  .nav__toggle {
+    display: none;
+  }
+  nav {
+    position: fixed;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    inset-block: 0;
+    /* background-color: red; */
+  }
+  .nav__item {
+    margin-block: 20px;
+  }
+  .nav__link {
+    padding: 0;
+    border-bottom: none;
+    background-color: hsl(0, 0%, 70%);;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+  }
+  .nav__icon {
+    font-size: 20px;
+    margin-inline: auto;
+  }
+
+  .nav__name {
+    position: absolute;
+    top: 0;
+    right: 100%;
+    background-color: var(--first-color);
+    height: 100%;
+    line-height: 50px;
+    padding-inline: 30px 25px;
+    border-radius: 30px;
+    font-size: var(--small-font-size);
+    color: var(--text-white);
+    opacity: 0;
+    z-index: -1;
+    visibility: hidden;
+    transition: all 0.3s ease;
+  }
+  .nav__link:hover .nav__name {
+    right: 27px;
+    color: var(--text-white);
+    opacity: 1;
+    visibility: visible;
+    border-radius: 30px 0 0 30px;
+  }
+  .nav__link:hover,
+  .active-nav {
+    background-color: var(--first-color);
+  }
+  .nav__link:hover .nav__icon,
+  .active-nav .nav__icon {
+    color: var(--text-white);
+  }
+}
