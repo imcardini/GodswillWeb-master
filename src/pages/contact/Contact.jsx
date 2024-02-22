@@ -60,7 +60,11 @@ const Contact = () => {
             {/* <a href="https://youtube.com" className="contact__social-link">
               <FaYoutube />
             </a> */}
-            <a href="https://dribbble.com" className="contact__social-link">
+            <a
+              href="https://api.whatsapp.com/send?phone=+23409153254081&text=Hello%2C%20Godswill%20I%20want%20to%20do%20business%20with%20you.
+"
+              className="contact__social-link"
+            >
               <FaWhatsapp />
             </a>
           </div>
