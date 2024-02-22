@@ -5,7 +5,7 @@ import {
   FaFacebookF,
   FaTwitter,
   FaYoutube,
-  FaDribbble,
+  FaWhatsapp,
 } from "react-icons/fa";
 
 import { FiSend } from "react-icons/fi";
@@ -20,11 +20,11 @@ const Contact = () => {
       </h2>
       <div className="contact__container container grid">
         <div className="contact__data">
-          <h3 className="contact__title">dont be shy</h3>
+          <h3 className="contact__title">Let's Connect</h3>
           <p className="contact__description">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat
-            neque modi accusamus impedit hic similique corrupti minima ducimus
-            earum, pa
+            Ready to take the next step? Reach out to me directly! Whether you
+            have inquiries about our services or just want to say hello, I'm all
+            ears. Drop me a message, and let's get the conversation going.
           </p>
 
           <div className="contact__info">
@@ -48,17 +48,20 @@ const Contact = () => {
           </div>
 
           <div className="contact__socials">
-            <a href="https://facebook.com" className="contact__social-link">
+            <a
+              href="https://www.facebook.com/profile.php?id=100090354035161"
+              className="contact__social-link"
+            >
               <FaFacebookF />
             </a>
-            <a href="https://twitter.com" className="contact__social-link">
+            {/* <a href="https://twitter.com" className="contact__social-link">
               <FaTwitter />
-            </a>
-            <a href="https://youtube.com" className="contact__social-link">
+            </a> */}
+            {/* <a href="https://youtube.com" className="contact__social-link">
               <FaYoutube />
-            </a>
+            </a> */}
             <a href="https://dribbble.com" className="contact__social-link">
-              <FaDribbble />
+              <FaWhatsapp />
             </a>
           </div>
         </div>
@@ -88,22 +91,21 @@ const Contact = () => {
                 className="form__control"
               />
             </div>
-
-           
           </div>
           <div className="form__input-div">
-              <textarea
-                placeholder="Your message"
-                className="form__control textarea"
-              ></textarea>
-            </div>
-
+            <textarea
+              placeholder="Your message"
+              className="form__control textarea"
+            ></textarea>
+          </div>
+          <a href="#">
             <button className="button contact__button">
               Send message
               <span className="button__icon contact__button-icon">
                 <FiSend />
               </span>
             </button>
+          </a>
         </form>
       </div>
     </section>

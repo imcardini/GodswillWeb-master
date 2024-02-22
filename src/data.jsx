@@ -109,7 +109,7 @@ export const personalInfo = [
   {
     id: 9,
     title: 'LinkedIn : ',
-    description: 'steve.milner',
+    description: 'peter godswill',
   },
 
   {
@@ -275,7 +275,7 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'www.dribbble.com',
+        desc: 'riksradiant.netlify.app',
       },
     ],
   },
@@ -293,17 +293,17 @@ export const portfolio = [
       {
         icon: <FiUser />,
         title: 'Client : ',
-        desc: 'Dribble',
+        desc: 'Kanga wine store',
       },
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'React JS',
+        desc: 'html & css',
       },
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'www.dribble.com',
+        desc: 'https://kanga-fine-wine.netlify.app/',
       },
     ],
   },
@@ -316,22 +316,22 @@ export const portfolio = [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Video',
+        desc: 'Website',
       },
       {
         icon: <FiUser />,
         title: 'Client : ',
-        desc: 'Dribble',
+        desc: 'personal project',
       },
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'Adobe Premium',
+        desc: 'html & javaScript',
       },
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'www.dribble.com',
+        desc: 'https://vonshoes.netlify.app/',
       },
     ],
   },
@@ -339,27 +339,27 @@ export const portfolio = [
   {
     id: 4,
     img: Work4,
-    title: 'Video Editing',
+    title: 'langing page',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Video',
+        desc: 'website',
       },
       {
         icon: <FiUser />,
         title: 'Client : ',
-        desc: 'Dribble',
+        desc: 'none',
       },
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'Adobe Premium',
+        desc: ' html ',
       },
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'www.dribble.com',
+        desc: ' https://piggyproject.netlify.app/',
       },
     ],
   },
@@ -367,7 +367,7 @@ export const portfolio = [
   {
     id: 5,
     img: Work5,
-    title: 'Landing Page',
+    title: 'sign up page',
     details: [
       {
         title: 'Project : ',
@@ -375,15 +375,15 @@ export const portfolio = [
       },
       {
         title: 'Client : ',
-        desc: 'Dribble',
+        desc: 'none',
       },
       {
         title: 'Language : ',
-        desc: 'React JS, Node JS',
+        desc: ' html & css',
       },
       {
         title: 'Preview : ',
-        desc: 'www.dribble.com',
+        desc: 'none',
       },
     ],
   },
@@ -391,7 +391,7 @@ export const portfolio = [
   {
     id: 6,
     img: Work6,
-    title: 'Photo Editing',
+    title: ' landing page',
     details: [
       {
         icon: <FiFileText />,
@@ -401,17 +401,17 @@ export const portfolio = [
       {
         icon: <FiUser />,
         title: 'Client : ',
-        desc: 'Dribble',
+        desc: 'none',
       },
       {
         icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'Adobe Photoshop',
+        title: 'software : ',
+        desc: 'adobe illustrator',
       },
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'www.dibble.com',
+        desc: 'none',
       },
     ],
   },
